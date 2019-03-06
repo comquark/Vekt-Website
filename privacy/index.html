@@ -53,11 +53,11 @@
 </script>
 <script>
   var imgCount = 2;
-      var dir = 'images/';
+      var dir = '../images/';
       var randomCount = Math.round(Math.random() * (imgCount - 1)) + 1;
       var images = new Array
-              images[1] = "../watches@2x.png",
-              images[2] = "../phones@2x.png",
+              images[1] = "watches@2x.png",
+              images[2] = "phones@2x.png",
       document.getElementById("promo-image").style.backgroundImage = "url(" + dir + images[randomCount] + ")";
 </script>
 
