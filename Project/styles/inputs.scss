@@ -1,0 +1,19 @@
+input[type=email],
+input[type=text],
+input[type=password],
+input[type=number] {
+  border: none;
+  border-radius: $radius-1;
+  padding: .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  outline: none;
+  transition: 300ms ease-in-out;
+  -webkit-appearance: none;
+  background-color: $dark-shade2;
+  color: $dark-text;
+
+  &:disabled { opacity: .3; }
+  &::placeholder { color: $dark-shade3; }
+  &:focus { background-color: $dark-shade3; }
+}

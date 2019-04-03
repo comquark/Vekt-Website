@@ -1,0 +1,29 @@
+html,
+body {
+  padding: 0;
+  background-color: $bg-color;
+  color: $dark-text;
+  font-family: $systemFont;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+.logo {
+  width: 2.5rem;
+  position: absolute;
+  left: 2rem;
+  top: 2rem;
+}
+
+.maincontainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: red;
+}
+.intro {
+  width: 90vw;
+  background: blue;
+}

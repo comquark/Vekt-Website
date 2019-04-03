@@ -1,0 +1,58 @@
+.font-dark {
+  color: #fff; }
+
+.font-light {
+  color: #6A6A6A; }
+
+h2,
+h1 {
+  font-weight: 400;
+  font-style: normal; }
+
+h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 1.1px; }
+
+p {
+  line-height: 150%; }
+
+html,
+body {
+  padding: 0;
+  background-color: #000;
+  font-family: -apple-system, BlinkMacSystemFont, SegoeUI, "Segoe UI", "Roboto", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased; }
+
+input[type=email],
+input[type=text],
+input[type=password],
+input[type=number] {
+  border: none;
+  border-radius: 0.5rem;
+  padding: .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  outline: none;
+  transition: 300ms ease-in-out;
+  -webkit-appearance: none;
+  background-color: #2D2D2D;
+  color: #fff; }
+  input[type=email]:disabled,
+  input[type=text]:disabled,
+  input[type=password]:disabled,
+  input[type=number]:disabled {
+    opacity: .3; }
+  input[type=email]::placeholder,
+  input[type=text]::placeholder,
+  input[type=password]::placeholder,
+  input[type=number]::placeholder {
+    color: #121212; }
+  input[type=email]:focus,
+  input[type=text]:focus,
+  input[type=password]:focus,
+  input[type=number]:focus {
+    background-color: #121212; }
