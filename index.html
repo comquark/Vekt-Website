@@ -9,8 +9,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
 
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main-min.css">
 
     <meta name="theme-color" content="#000">
 
@@ -32,12 +31,17 @@
     your browser</a> to improve your experience and security.</p>
 <![endif]-->
 <nav>
-  Hier komt nav
+  <div class="logo"></div>
+  <div class="links">
+    <a href="#" class="unavailable">Press</a>
+    <a href="mailto:feedback@vektapp.com">Contact</a>
+    <a href="https://vekt.app/privacy/" title="Legal" target="_blank">Privacy</a>
+    <a href="https://itunes.apple.com/us/app/vekt-track-your-weight-fast/id1114721073?ls=1&mt=8" target="_blank" title="Download Vekt on the App Store" class="cta">Download Vekt</a>
+  </div>
 </nav>
 <div class="main">
     <header class="header">
-      <div class="header-text" data-aos="fade-right" data-aos-delay="0" data-aos-duration="600"
-               data-aos-easing="ease-out-quad" data-aos-anchor-placement="top" data-aos-once="true">
+      <div class="header-text">
         <div class="header-text-box">
             <h1 class="eyebrow"><strong>Vekt</strong> for iOS and watchOS</h1>
             <h2 class="headline">The fastest weight tracker.</h2>
@@ -45,8 +49,7 @@
             <a class="app-store" href="https://itunes.apple.com/us/app/vekt-track-your-weight-fast/id1114721073?ls=1&mt=8" target="_blank" title="Download Vekt on the App Store"></a>
         </div>
       </div>
-      <div class="header-visual" data-aos="zoom-in-left" data-aos-delay="150" data-aos-duration="400"
-               data-aos-easing="ease-out-quad" data-aos-anchor-placement="top" data-aos-once="true">
+      <div class="header-visual">
         <span class="header-visual-box"></span>
       </div>
     </header>
@@ -59,25 +62,25 @@
               <img src="img/health-app.svg" alt="Health App Icon"/>
             </div>
           <span>
-            <h3>Health Integration</h3>
+            <h3 class="red">Health Integration</h3>
             <p>Track your weight simply fast and get it all into iOS’s Health app.</p>
           </span>
           </div>
         </section>
         <section class="section reminders">
             <span>
-              <h3>Reminders</h3>
+              <h3 class="green">Reminders</h3>
               <p>Enable reminders to get notified and form the healthy habit of weight tracking.<br/> <i>You can even enter a new weight measurement right from the notification!</i></p>
             </span>
             <div class="reminder-video">
               <div class="video-frame"></div>
-              <video src="img/reminder-video.mov" type="video/mov" autoplay loop>
+              <video src="img/reminder-video.mov" type="video/mov" loading="lazy" autoplay loop>
             </div>
         </section>
         <section class="section large bmi">
           <span>
-            <h3>Automatic BMI Calculation</h3>
-            <p>Body mass index offers a bit of insight on how healthy your weight actually is.</p>
+            <h3 class="red">Automatic BMI Calculation</h3>
+            <p>Body mass index offers a bit of insight on how healthy your weight is.</p>
           </span>
           <div class="feature-visual"></div>
         </section>
@@ -85,7 +88,7 @@
           <div class="feature-content">
             <div class="feature-visual"></div>
           <span>
-            <h3>Targets</h3>
+            <h3 class="blue">Targets</h3>
             <p>Set a target weight so you’ll get more motivation to track it.</p>
           </span>
           </div>
@@ -93,52 +96,86 @@
       </div>
     </article>
     <article>
-      <h2>Other Features</h2>
+      <h2 class="green">And that's not all...</h2>
       <div class="features small-grid">
         <section class="section">
-          <h4>Siri Shortcuts</h4>
-          <p>Setup a shortcut for automations and voice control.</p>
+          <h4 class="green">Siri Shortcuts</h4>
+          <p>Setup a shortcut for automation and voice control.</p>
         </section>
         <section class="section">
-          <h4>Custom Units</h4>
-          <p>Support for Pound, Kilo and Stone.</p>
+          <h4 class="green">Custom Units</h4>
+          <p>Support for Pound, Kilo and Stone unit.</p>
         </section>
         <section class="section">
-          <h4>Line Chart</h4>
+          <h4 class="green">Line Chart</h4>
           <p>Subtle chart for progress indication.</p>
         </section>
         <section class="section">
-          <h4>Dark & Light Themes</h4>
-          <p>Different themes and native iOS 13 theming is coming this Fall.</p>
+          <h4 class="green">Dark & Light Themes</h4>
+          <p>Different themes for different tastes.</p>
         </section>
         <section class="section">
-          <h4>Height Entry</h4>
+          <h4 class="green">Height Entry</h4>
           <p>Adds your height into the health app.</p>
         </section>
         <section class="section">
-          <h4>Interactive Notifications</h4>
+          <h4 class="green">Interactive Notifications</h4>
           <p>Enter your weight directly from the notification.</p>
         </section>
         <section class="section">
-          <h4>Motivational Messages</h4>
+          <h4 class="green">Motivational Messages</h4>
           <p>Optional random motivation messages.</p>
         </section>
         <section class="section">
-          <h4>Siri Suggestions</h4>
-          <p>Get the suggestion from Siri in spotlight.</p>
+          <h4 class="green">Siri Suggestions</h4>
+          <p>Get the suggestion from Siri in the spotlight.</p>
         </section>
-
       </div>
+    </article>
+    <article class="watch">
+      <h2 class="headline blue">Also the fastest on a small screen.</h2>
+      <p>Enjoy freedom. There is no phone needed to track your weight with the help of Vekt on watchOS.</p>
+
+      <div class="watch-version">
+        <section class="section">
+          <img src="img/watch-1.png">
+        <span>
+          <h4 class="blue">See your weight</h4>
+        </span>
+
+        </section>
+        <section class="section">
+          <img src="img/watch-2.png">
+        <span>
+          <h4 class="blue">Hit your target</h4>
+        </span>
+
+        </section>
+        <section class="section">
+          <img src="img/watch-3.png">
+        <span>
+          <h4 class="blue">Check your BMI</h4>
+        </span>
+
+        </section>
+        <section class="section">
+          <img src="img/watch-4.png">
+        <span>
+          <h4 class="blue">Add new measurement</h4>
+        </span>
+
+        </section>
+      </div>
+
     </article>
 
     <footer class="footer">
+      <a class="app-store" href="https://itunes.apple.com/us/app/vekt-track-your-weight-fast/id1114721073?ls=1&mt=8" target="_blank" title="Download Vekt on the App Store"></a>
         Copyright &copy; 2017 – <script>document.write(new Date().getFullYear())</script><a href="http://hiddevdploeg.com/" target="_blank" class="copyright">Hidden Color</a>
     </footer>
 </div>
 
 
-<script src="js/aos.js"></script>
-<script src="js/main.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-89870949-1"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
