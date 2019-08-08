@@ -1,2 +1,1 @@
-# Vekt-Website
-The Vekt Promotional Website
+# hearhear-splash
