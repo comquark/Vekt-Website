@@ -14,4 +14,5 @@
 
 .banner:hover {
   transform: scale(1.05);
+  background: rgba(74,159,255,0.3);
 }
