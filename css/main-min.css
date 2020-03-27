@@ -2,12 +2,12 @@
 
 .banner {
   margin-top: 1.5rem;
-  background: var(--blue);
+  background: rgba(74,159,255,0.25);
   display: block;
   border-radius: 10px;
   padding: .5rem .75rem;
   text-decoration: none;
-  color: #fff;
+  color: var(--blue);
   font-weight: 600;
   transition: .3s ease-out;
 }
