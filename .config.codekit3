@@ -69,8 +69,8 @@
 		"oA": 0,
 		"oAP": "/img/app-icon.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -80,8 +80,8 @@
 		"oA": 0,
 		"oAP": "/img/app-icon@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -155,8 +155,8 @@
 		"oA": 0,
 		"oAP": "/img/dark/top-visual.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -166,8 +166,8 @@
 		"oA": 0,
 		"oAP": "/img/dark/top-visual@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -293,8 +293,8 @@
 		"oA": 0,
 		"oAP": "/img/light/top-visual.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -304,8 +304,8 @@
 		"oA": 0,
 		"oAP": "/img/light/top-visual@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -567,6 +567,14 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/terms/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/terms/index.html",
+		"oF": 0
 		}
 	},
 "hooks": [
