@@ -55,14 +55,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/favicon.ico": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/favicon.ico",
-		"oF": 0
-		},
 	"/img/app-icon.png": {
 		"ft": 32768,
 		"iS": 2090,
@@ -171,13 +163,27 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/favicon.ico": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
+	"/img/dart/top-visual.png": {
+		"ft": 32768,
+		"iS": 149140,
 		"oA": 0,
-		"oAP": "/img/favicon.ico",
-		"oF": 0
+		"oAP": "/img/dart/top-visual.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/dart/top-visual@2x.png": {
+		"ft": 32768,
+		"iS": 519678,
+		"oA": 0,
+		"oAP": "/img/dart/top-visual@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/img/health-app.svg": {
 		"ft": 2097152,
