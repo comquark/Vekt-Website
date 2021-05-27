@@ -1,1 +1,1 @@
-# hearhear-splash
+This is the Vekt website
