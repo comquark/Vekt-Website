@@ -260,11 +260,17 @@ h2.headline {
   line-height: 120%;
   margin: 4px 0;
 }
-h2 {
+h1 {
   font-size: 3rem;
+}
+h2 {
+  font-size: 2.5rem;
   font-weight: 800;
   line-height: 100%;
-  margin: 24px 0;
+  margin: 4rem 0 1rem 0;
+}
+h3 {
+  font-size: 2rem;
 }
 nav {
   height: 64px;
@@ -576,6 +582,60 @@ article {
 }
 .footer .app-store {
   margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+.footer .links {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: var(--shade-1);
+}
+.footer .links a:hover {
+  color: var(--green);
+  font-weight: bold;
+}
+.blog {
+  width: 70%;
+  max-width: 800px;
+  min-width: 300px;
+  margin: 10rem auto;
+}
+.blog .small-img {
+  max-width: 200px;
+}
+.blog div.instructions {
+  margin: 2rem 0;
+}
+.blog {
+  font-size: 1.4rem;
+}
+.blog img {
+  max-width: 100%;
+}
+.blog a {
+  font-weight: bolder;
+  text-decoration: none;
+  color: var(--blue);
+}
+.blog a:visited {
+  color: var(--blue);
+}
+.blog a#hover {
+  color: var(--green);
+}
+.footer .links ul {
+  padding: 1rem;
+  list-style-type: none;
+  margin: 0;
+}
+.footer .links li {
+  display: inline;
+  margin-left: 2.5rem;
+}
+.footer .links a {
+  color: #d9d9d9;
+  text-decoration: none;
+  font-size: 1rem;
 }
 .footer .copyright {
   color: var(--shade-1);
@@ -585,6 +645,11 @@ article {
 }
 .footer .copyright:hover {
   color: var(--blue);
+}
+.footer .column {
+  width:30.5%;
+  float:left;
+  margin:0 10px;
 }
 @media (min-width: 1024px) {
   .footer {
@@ -624,7 +689,7 @@ article {
     padding-bottom: 0;
   }
   .header h2.headline {
-    font-size: 4rem;
+    font-size: 2.5rem;
   }
   .header-text {
     grid-column-end: none;
@@ -634,9 +699,9 @@ article {
     height: 50vh;
     margin-top: 4rem;
   }
-  nav .cta {
-    display: none;
-  }
+  /*nav .cta {*/
+  /*  display: none;*/
+  /*}*/
   article {
     padding: 6rem 1rem 0rem 1rem;
   }
